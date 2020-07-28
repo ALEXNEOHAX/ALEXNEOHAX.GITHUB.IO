@@ -9,7 +9,11 @@
         body {
             background-color:#e74c3c ;
         }
-
+        .header{
+            margin-top: 20px;
+            align-content: center;
+            text-align: center;
+        }
         .result_table{
             background-color: #34495e;
             height: 100px;
@@ -44,6 +48,7 @@
 
         .my-date{
             color: white;
+            margin-top: 50px;
         }
 
         .category-row{
@@ -59,55 +64,80 @@
             margin: 4px;
             
         }
+
+        .my-btn{
+            height: 30px;
+            border-radius: 4px;
+            margin-top: 165px;
+            width: 150px;
+        }
+
+        
         
            
     </style>
 </head>
                         <body>
                              <div><nav class="navbar navbar-dark bg-dark">
-                                     <a class="navbar-brand" href="#">AssamTeer</a>
+                                     <a class="navbar-brand" href="../index.html">AssamTeer</a>
                                    </nav>
                              </div>
-                             <div class="row justify-content-center my-date"><b>22.05.2020</b></div>
-    
-                                    <div class="result_table">
-                                            <div class="container">
-                                                <div class="row city_n">Shillong</div>
-                                                 <div class="row">
-                                                     <div class="col my-col"><b>F/R(3:45PM)</b></div>
-                                                     <div class="col my-col"><b>S/R(4:45)</b></div>
-                                                 </div>
-                                                 <div class="row">
-                                                    <div class="col my-col2"><b>55</b></div>
-                                                    <div class="col my-col2"><b>21</b></div>
-                                                </div>
-                                            </div>
-                                    </div>
+                            <div class="header"><b>PREVIOUS RESULTS</b></div>
+
+                            <div class="prv-table">
+                                <table class="table table-dark">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">F/R</th>
+                                        <th scope="col">S/R</th>
+                                        <th scope="col">City</th>
+                                        
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">25-07-2020</th>
+                                        <td>55</td>
+                                        <td>21</td>
+                                        <td>Shillong</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">24-07-2020</th>
+                                        <td>31</td>
+                                        <td>13</td>
+                                        <td>Shillong</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">23-07-2020</th>
+                                        <td>23</td>
+                                        <td>87</td>
+                                        <td>Shillong</td>
+                                        
+                                      </tr>
+                                      
+                                    </tbody>
+                                  </table>
+                            </div>
 
 
-                                   <div class="container">
-                                    <div class="row category-row">
-                                        <div class="col category-col"><a class="btn btn-primary" href="pages/common-number.html" role="button">Common Number</a></div>
-                                        <div class="col category-col">Deal</div>
-                                        <div class="col category-col">Dream Number</div>
-                                    </div>
-                                   </div>
-                                   <div class="container">
-                                    <div class="row category-row">
-                                        <div class="col category-col"><a class="btn btn-primary" href="pages/common-number.html" role="button">Analytics</a></div>
-                                        <div class="col category-col">Predict Target</div>
-                                        <div class="col category-col">Previous Result</div>
-                                    </div>
-                                   </div>
 
-                                   <div class="container">
-                                    <div class="row category-row">
-                                        <div class="col category-col"><a class="btn btn-primary" href="pages/common-number.html" role="button">Teer Calendar</a></div>
-                                        <div class="col category-col">Reputed Counter</div>
-                                        <div class="col category-col">Target App</div>
-                                    </div>
-                                   </div>
-
+                            <div><div class="container">
+                                <div class="row category-row">
+                                    <div class="col category-col"><a class="btn btn-primary my-btn" href="../pages/common-number.html" role="button">Common-Number</a></div>
+                                    <div class="col category-col"><a class="btn btn-primary my-btn" href="../pages/deal-n.html" role="button">Deal</a></div>
+                                    <div class="col category-col"><a class="btn btn-primary my-btn" href="../pages/dream-number.html" role="button">Dream Number</a></div>
+                                </div>
+                               </div>
+                               <div class="container">
+                                <div class="row category-row">
+                                    <div class="col category-col"><a class="btn btn-primary my-btn" href="../pages/analytics.html" role="button">Analytics</a></div>
+                                    <div class="col category-col"><a class="btn btn-primary my-btn" href="../pages/predict-target.html" role="button">Predict Target</a></div>
+                                    <div class="col category-col"><a class="btn btn-primary my-btn" href="../pages/previous-results.html" role="button">Previous Results</a></div>
+                                </div>
+                               </div></div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
